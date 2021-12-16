@@ -1,117 +1,169 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .div1
 {
     background-color: black;
+    /* width: 100%; */
     color: white;
-    font-size: 16px;
-    /* text-align: center; */
+}
 
+
+@media(max-width:768px) {
+    .div1
+    {
+        color: tomato;
+        display: none;
+        
+    }
+    .paragraph
+    {
+        margin-left: -12px;
+    }
+    .a{
+        display: none;
+    }
+    
 }
-.div1 .paragraph
+
+.sec2
 {
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: 2%;
 }
-.bg1
+
+.setdiv
 {
-    background-image:url(./images/bg1.png);
-    /* background-image:url(./images/A.png) ; */
-    background-size: contain;
+    /* background-color: rgb(194, 125, 125); */
+    width: 20%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 5px grey;
+    /* background-color: black; */
+    padding: 0px;
+}
+.setdiv img{
     width: 100%;
-    height: 750px;
-    background-repeat: no-repeat;
-}
-/* .a
-{
-    display: inline;
-    width: 700px;
-    height: 700px;
-    margin-left:200px;
     
-} */
-
-.logo
+}
+.setheading
 {
-    margin-left: 20%;
     margin-top: 10%;
-    font-size: 35px;
-    /* font-weight: 600; */
-    font-weight: bold;
+    text-align: center;
+    color: #e20c0c;
 }
-.bg1 ul
+.setpara
 {
+    margin-top: 8%;
+    color: black;
     font-size: 18px;
-    /* margin: -10px; */
-    
+    text-align: center;
+    /* text-align:justify ; */
 }
-.bg1 ul a
+.setdiv .btn1
 {
+    margin-top:5%;
+    margin-bottom: 5%;
+    margin-left:25%;
     color: white;
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 35px;
-    /* margin-right: -10px; */
-    /* margin-right: 109px; */
+    font-size: bold;
+    font-weight: 500;
+    border: 2px solid rgb(163, 58, 58);
+    border-radius: 45px;
+    padding: 2%;
+    width: 60%;
+    background: linear-gradient(to right, red , yellow);
 }
-.button
-{
-    margin-top: 40px;
-    margin-left:30px ;
-    border: none;
-    font-size: 18px;
-    /* font-weight: bold; */
-    
-    background-color: orangered;
-    width: 150px; 
-    
-    border-radius: 60px;
-    color: white;
-    padding:5px ;
-    
-}
-.sameclases1
-{
-    margin-left: 53px;
-    margin-top: 100px;
-    color: white;
-}
-.extrasmal
-{
-    border-left:1px solid white ;
-    font-size: 10px;
-    margin-bottom: 10px;
-}
-.medium
-{
-    font-size: 22px;
-    letter-spacing: 1px;
 
-    font-weight: 600;
-}
-.mainheading
+
+
+.card2
 {
-    font-size: 80px;
-    font-weight: 700;
+    /* background-color: aqua; */
+    margin-left: 2%;
+    /* margin-top: 6px; */
+    /* box-shadow: 10px 10px 5px grey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 10px 10px 5px grey; */
+    /* width:70%; */
 }
-.small
+
+.card2
 {
-    font-size:18px ;
-    word-spacing: 1px;
-    letter-spacing: 1px;
+    margin-top: 3%;
 }
-.bton
+.btun
 {
-    margin-top: 30px;
-    /* border: none; */
+    position: relative;
+    top: -35px;
+    margin-left: -12px;
+    /* background-color: teal; */
+}
+.btn3
+{
+    background-color: rgb(142, 214, 214);
+    border: none;
+    padding:5px;
+    border-top:1px solid black ;
+    border-left:1px solid black ;
+    border-right:1px solid black ;
+    
+}
+
+.card2 img
+{
+    width: 100%;
+    margin-top: -35px;
+}
+
+.line
+{
+    border-bottom: 2px solid black;
+    width: 35%;
+    margin-top: 10px;
+    
+}
+.parag
+{
+    margin-top: 20px;
+    width: 60%;
+}
+.paraga
+{
+    margin-top: 20px;
+}
+.btn4
+{
+    /* margin-top:5%; */
+    /* margin-bottom: 5%; */
+    /* margin-left:25%; */
     color: white;
+    font-size: bold;
+    font-weight: 500;
+    border: 1px solid rgb(163, 58, 58);
+    border-radius: 45px;
+    padding: 1%;
+    width: 25%;
+    margin-top: 20px;
+    background: linear-gradient(to right, red , yellow);
 }
-.button2
+.btn4:hover
 {
-    font-size: 20px;
-    /* outline: none; */
-    border: 1px solid white;
-    background-color: transparent;
-    width: 150px; 
-    border-radius: 60px;
-    padding:5px ;
+    background: seagreen;
 }
+.btn5
+{
+    margin-top: 20px;
+    background-color: transparent;
+    color: black;
+    padding: 6px;
+    border: 1px solid black;
+    width: 30%;
+    border-radius: 50px;
+}
+.moveright
+{
+    margin-left: 15px;
+}
+ 
